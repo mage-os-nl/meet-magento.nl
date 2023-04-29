@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html dir="ltr" lang="en" data-theme="light">
     <head>
         <meta charset="UTF-8">
+        <meta content="width=device-width,initial-scale=1" name="viewport">
         <title>{% block title %}Meet Magento Nederland 2024{% endblock %}</title>
+
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
@@ -11,7 +13,7 @@
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
     </head>
-    <body>
+    <body style="min-height: 100vh;">
         {% block body %}
         {% endblock %}
     </body>

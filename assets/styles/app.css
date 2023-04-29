@@ -4,7 +4,7 @@
 @import "@fylgja/list";
 @import "@fylgja/breadcrumbs";
 @import "@fylgja/avatar";
-@import "@fylgja/auto-grid";
+@import "@fylgja/auto-grid" layer(components);
 @import "@fylgja/button";
 @import "@fylgja/card";
 @import "@fylgja/container";
@@ -36,8 +36,4 @@ header {
 
 main {
     padding-top: 50px;
-
-    .card {
-        padding: 100px;
-    }
 }
