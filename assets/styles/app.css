@@ -1,0 +1,43 @@
+@import "@fylgja/base";
+@import "@fylgja/details";
+@import "@fylgja/table";
+@import "@fylgja/list";
+@import "@fylgja/breadcrumbs";
+@import "@fylgja/avatar";
+@import "@fylgja/auto-grid";
+@import "@fylgja/button";
+@import "@fylgja/card";
+@import "@fylgja/container";
+@import "@fylgja/section";
+@import "@fylgja/menu";
+
+:root {
+    --family-main: 'Robot', sans-serif;
+    --font-weight: 100;
+    --family-header: 'Robot', sans-serif;
+}
+
+body {
+    background-image: url(../images/dom.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 100;
+}
+
+h1.main {
+    font-weight: 900;
+}
+
+header {
+    background-color: white;
+    border-bottom: solid 5px orange;
+}
+
+main {
+    padding-top: 50px;
+
+    .card {
+        padding: 100px;
+    }
+}
